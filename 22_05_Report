@@ -1,0 +1,17 @@
+'나는'+str(12)+'개의 사과를 먹었다.'
+'apple' + 'grape'
+'apple'*3
+s = input("문자열을 입력하시오: ")
+print(s[0:2] + s[4:])
+str = input("문자열을 입력하시오: ")
+print(str + "하는 중")
+p = input("기호를 입력해주세요 : ")
+s = input("중간에 삽입할 문자열을 입력하시오 : ")
+
+print(p[0] + s + p[1])
+list = ['1', '2', '3', '4']
+
+sum = int(list[0]) + int(list[1]) + int(list[2]) + int(list[3])
+
+print("리스트 = ", list)
+print("리스트 숫자들의 합 : ", sum)
